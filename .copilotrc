@@ -1,0 +1,13 @@
+[config]
+language = "TypeScript"
+framework = "Next.js"
+libraries = ["React", "TailwindCSS", "shadcn/ui", "React Hook Form"]
+goal = """
+Build a frontend interface for a home improvement AI app.
+User provides a room idea via text input or image upload.
+Frontend displays 4 decorative renderings from the backend.
+User selects one to view a detailed plan (cost, tools, steps).
+"""
+
+[exclude]
+files = ["node_modules/", ".next/", "public/", "styles/"]
