@@ -42,3 +42,61 @@ Transform your home improvement ideas into reality with AI-generated designs, ma
    ```bash
    git clone https://github.com/your-username/homeimproveai-frontend.git
    cd homeimproveai-frontend
+2. Install dependencies:
+   pnpm install
+   # or
+   npm install
+   # or
+   yarn install
+3. Set up environment variables:
+   cp .env.example .env.local
+4. Run the development server:
+   pnpm dev
+   # or
+   npm run dev
+   # or
+   yarn dev
+Open http://localhost:3000 in your browser.
+🏗️ Project Structure
+homeimproveai-frontend/
+├── app/                    # Next.js App Router
+│   ├── (auth)/             # Authentication routes
+│   ├── api/                # API route handlers
+│   ├── generate/           # AI generation pages
+│   ├── projects/           # Project management
+│   └── layout.tsx          # Root layout
+├── components/             # Reusable components
+├── hooks/                  # Custom React hooks
+├── lib/                    # Utilities and helpers
+│   ├── api/                # API client configuration
+│   └── stores/             # Zustand state stores
+├── public/                 # Static assets
+├── styles/                 # Global styles
+├── types/                  # TypeScript type definitions
+└── tests/                  # Test files
+🧪 Running Tests
+pnpm test
+# or
+npm run test
+# or
+yarn test
+🚀 Deployment
+Deploy to Vercel:
+
+https://vercel.com/button
+
+🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the project
+
+Create your feature branch (git checkout -b feat/amazing-feature)
+
+Commit your changes (git commit -m 'Add some amazing feature')
+
+Push to the branch (git push origin feat/amazing-feature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
